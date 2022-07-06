@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background: url(/images/donation13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.header-section .header-text {
+  color: white;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header-text h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+.header-text h2 {
+  font-size: 70px;
+  font-weight: 700;
+}
+.header-text p {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.donate-btn {
+  text-decoration: none;
+  padding: 15px;
+  background-color: #ff5959;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+.donate-price-sec {
+  margin: 100px auto;
+  width: 60%;
+}
+.donate-cont {
+  text-align: center;
+}
+.donate-cont h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.donate-cont p {
+  margin: 0 10%;
+  color: gray;
+}
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.price-col {
+  width: 150px;
+  height: 100px;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.orcol {
+  border: 3px solid #ff5959;
+  border-radius: 5px;
+  background-color: #ffeeee;
+}
+.price-col h3 {
+  font-size: 30px;
+  color: #707070;
+}
+.amount-inp {
+  width: 100%;
+  padding: 10px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-color: #dadada;
+  margin: 50px 0;
+  font-size: 15px;
+  text-align: center;
+  color: #b3b3b3;
+  outline: none;
+}
+/* Our donate plan sectionmake */
+.donate-plan {
+  width: 80%;
+  margin: 100px auto;
+}
+.donate-plan h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.donate-plan .donate-p {
+  margin: 0 20%;
+  text-align: center;
+  color: #707070;
+}
+.plan-row {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.plan-column {
+  padding: 3% 2%;
+  border-radius: 5px;
+}
+.plan-column img {
+  margin-bottom: 10px;
+}
+.plan-column h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.plan-column p {
+  color: #707070;
+}
+.plan-column .svg-img {
+  height: 50px;
+}
+.first-col {
+  background-color: #4f9da632;
+  margin-right: 20px;
+}
+.second-col {
+  background-color: #ff595922;
+  margin-right: 20px;
+}
+.third-col {
+  background-color: #fff4d63c;
+}
+.updates-sec {
+  width: 60%;
+  margin: 100px auto;
+}
+/* OUR TEAM */
+.team-sec {
+  width: 80%;
+  margin: 100px auto;
+}
+.team-sec h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.team-sec .t-sec-p {
+  margin: 0 20%;
+  text-align: center;
+  color: #707070;
+}
+.team-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+.team-col {
+  text-align: center;
+}
+.team-col img {
+  margin-bottom: 5px;
+}
+.team-col h3 {
+  margin-bottom: 5px;
+}
+.team-col p {
+  margin-bottom: 10px;
+}
+/* updates sec ata */
+.updates-sec h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.updates-sec-p {
+  margin: 0 10%;
+  text-align: center;
+  color: #707070;
+}
+.updates-inp {
+  margin-top: 100px;
+  width: 100%;
+  height: 220px;
+  background-color: #fff4d6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.updates-inp input {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #d9d9d9;
+  color: #aa9f9f;
+  border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.updates-inp button {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #ff5959;
+  color: #fff;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #0b0d17;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 150px;
+}
+.footer-style h2 {
+  font-family: "Lobster", cursive;
+  color: #ff5959;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+.footer-style p {
+  color: #d9dbe1;
+  text-align: center;
+  font-size: 14px;
+}
