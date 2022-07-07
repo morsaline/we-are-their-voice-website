@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+/* header section start */
 header {
   background: url(./images/bg.jpg);
   background-repeat: no-repeat;
@@ -43,6 +44,7 @@ header {
   font-weight: 400;
   border-radius: 5px;
 }
+/* Donate price section start */
 .donate-price-sec {
   margin: 100px auto;
   width: 60%;
@@ -96,7 +98,7 @@ header {
   color: #b3b3b3;
   outline: none;
 }
-/* Our donate plan sectionmake */
+/* Our donate plan section make */
 .donate-plan {
   width: 80%;
   margin: 100px auto;
@@ -151,7 +153,7 @@ header {
   width: 60%;
   margin: 100px auto;
 }
-/* OUR TEAM */
+/* OUR TEAM  section*/
 .team-sec {
   width: 80%;
   margin: 100px auto;
@@ -226,6 +228,7 @@ header {
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
 }
+/* footer sec start */
 
 footer {
   width: 100%;
